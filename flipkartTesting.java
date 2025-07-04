@@ -35,8 +35,8 @@ public class flipkartTesting {
 	        
 	        System.out.println("Product added to cart successfully.");
 		
-                WebElement palceorder = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='QqFHMw zA2EfJ _7Pd1Fp']")));
-	        palceorder.click();
+                WebElement PlaceOrder = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='QqFHMw zA2EfJ _7Pd1Fp']")));
+	        PlaceOrder.click();
 	        
 	        System.out.println("Place order is successfully.");
 	       
