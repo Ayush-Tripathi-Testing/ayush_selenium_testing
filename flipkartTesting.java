@@ -39,6 +39,8 @@ public class flipkartTesting {
 	        PlaceOrder.click();
 	        
 	        System.out.println("Place order is successfully.");
+
+		driver.closed();
 	       
 	}
 	
